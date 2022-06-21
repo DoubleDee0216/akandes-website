@@ -8,6 +8,11 @@
     height: 100vh;
     display: flex;
     align-items: center;
+   /* background: linear-gradient(
+        to left,
+        rgb(82, 68, 7) 0%,
+        rgb(3, 122, 97) 100%
+      ); */
 }
 
 .countdown__details {
@@ -16,7 +21,7 @@
 .countdown__details h1 {
     font-family: 'Lobster', cursive;
     font-weight: bold;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     color: white;
 }
 .countdown__details2 {

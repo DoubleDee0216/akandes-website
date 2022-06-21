@@ -47,7 +47,7 @@ class Countdown extends Component {
                 <div className="container">
                     <div className="row justify-content-center align-items-center">
                         <div className="col-md-8 countdown__details">
-                            <h1>Wedding Bells</h1>
+                            <h1>#BecomingTheAkandes</h1>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center">
