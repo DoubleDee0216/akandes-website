@@ -1,0 +1,26 @@
+.wedding__event {
+    text-align: center;
+    margin: 2rem auto;
+
+}
+.wedding__event h2 {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+.wedding__event p {
+    text-align: center;
+    font-size: large;
+}
+.wedding__info {
+    margin: 1rem auto;
+    text-align: center;
+}
+.wedding__infotext {
+    margin: 1rem auto;
+}
+.wedding__infotext h4 {
+    font-family: 'Lobster';
+}
+.wedding__infotext p {
+    font-family: 'Lucida Sans'
+}

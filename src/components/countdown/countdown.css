@@ -1,0 +1,85 @@
+.countdown{
+    padding: 2rem 1rem;
+    /*background-image: url("/public/images/img1.jpeg"); */
+    background: linear-gradient(to right, transparent, rgb(247, 216, 40)), url("/public/images/img1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.countdown__details {
+    text-align: center;
+}
+.countdown__details h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: white;
+}
+.countdown__details2 {
+    text-align: center;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+}
+.countdown__details2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    font-size: bold;
+    color: white;
+}
+.countdown__details2 h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 2rem auto;
+}
+
+.countdown__details3 {
+    text-align: center;
+    border-radius: 10px;
+    margin-right: .5rem;
+    padding: .5rem;
+}
+
+.countdown__details3 h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0;
+
+}
+.countdown__details3 p {
+    font-size: .75rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .countdown__details h1 {
+        font-size: 2.5rem;
+    }
+
+    .countdown__details2 p {
+        font-size: 1.5rem;
+    }
+    .countdown__details2 h3 {
+        font-size: 2.7rem;
+    }
+
+    .countdown__details3 {
+        padding: 1rem .5rem;
+    }
+
+    .countdown__details3 h3 {
+        font-size: 2.5rem;
+    }
+    .countdown__details3 p {
+        font-size: 1.5rem;
+    }
+}
