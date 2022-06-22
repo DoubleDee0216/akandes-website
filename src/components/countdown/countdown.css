@@ -74,17 +74,17 @@
         font-size: 1.5rem;
     }
     .countdown__details2 h3 {
-        font-size: 2.7rem;
+        font-size: 2rem;
     }
 
     .countdown__details3 {
-        padding: 1rem .5rem;
+        padding: .5rem .5rem;
     }
 
     .countdown__details3 h3 {
         font-size: 2.5rem;
     }
     .countdown__details3 p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }

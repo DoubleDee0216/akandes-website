@@ -14,17 +14,17 @@ const Information = () => {
 
             <div className="row wedding__info">
                 <div className="col-md-4 wedding__infotext col-lg-3">
-                    <img src="/images/round.jpg" alt="engagement"></img>
+                    <img src="/images/3.jpg" alt="engagement"></img>
                     <h4>Engagement</h4>
                     <p>12PM West African Time</p>
                 </div>
                 <div className="col-md-4 wedding__infotext col-lg-3">
-                    <img src="/images/round.jpg" alt="reception"></img>
+                    <img src="/images/reception.jpg" alt="reception"></img>
                     <h4>Reception</h4>
                     <p>3PM West African Time</p>
                 </div>
                 <div className="col-md-4 wedding__infotext col-lg-3">
-                    <img src="/images/round.jpg" alt="after party"></img>
+                    <img src="/images/party.jpg" alt="after party"></img>
                     <h4>After Party</h4>
                     <p>starts immediately after reception</p>
                 </div>

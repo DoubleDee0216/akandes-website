@@ -24,3 +24,10 @@
 .wedding__infotext p {
     font-family: 'Lucida Sans'
 }
+.wedding__infotext img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem; 
+    justify-items: center;
+    position: relative;
+}
