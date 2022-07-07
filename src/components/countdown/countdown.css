@@ -1,7 +1,7 @@
 .countdown{
     padding: 2rem 1rem;
     /*background-image: url("/public/images/img1.jpeg"); */
-    background: linear-gradient(to right, transparent, rgb(247, 216, 40)), url("/public/images/img1.jpeg");
+    background: linear-gradient(to right, transparent, rgb(247, 216, 40)), url("/public/images/DSC_16234.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
