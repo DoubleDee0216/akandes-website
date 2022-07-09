@@ -25,20 +25,31 @@ class Countdown extends Component {
 
         //calculate the time difference
         const presentTime = new Date().getTime();
-        const weddingTime = new Date(2022, 6, 9).getTime();
+        const weddingTime = new Date(2022, 6, 9, 10).getTime();
         const differenceInTime = weddingTime - presentTime;
 
-        const timeInSecs = Math.floor(differenceInTime / 1000)  % 60;
-        const timeInMins = Math.floor(differenceInTime / 1000/ 60 ) % 60;
-        const timeInHours = Math.floor(differenceInTime / 1000/ 60/ 60 ) % 24;
-        const timeInDays = Math.floor(differenceInTime / 1000/ 60 / 60 /24 );
+        if (weddingTime > Date.now()) {
 
-        this.setState({
-            days: timeInDays,
-            hours: timeInHours,
-            minutes: timeInMins,
-            seconds: timeInSecs
-        })
+            const timeInSecs = Math.floor(differenceInTime / 1000)  % 60;
+            const timeInMins = Math.floor(differenceInTime / 1000/ 60 ) % 60;
+            const timeInHours = Math.floor(differenceInTime / 1000/ 60/ 60 ) % 24;
+            const timeInDays = Math.floor(differenceInTime / 1000/ 60 / 60 /24 );
+
+            this.setState({
+                days: timeInDays,
+                hours: timeInHours,
+                minutes: timeInMins,
+                seconds: timeInSecs
+            });
+            
+        } else {
+            this.setState({
+                days: 0,
+                hours: 0,
+                minutes: 0,
+                seconds: 0
+            });
+        }
     }
 
     render(){

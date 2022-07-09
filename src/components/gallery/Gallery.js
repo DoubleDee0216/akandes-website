@@ -25,28 +25,31 @@ const Gallery = () => {
 
                 <div class="card-columns gallery__images">
                     <div class="card">
-                        <img src="/images/3.jpg" className="card-img-top" alt="..." />
+                        <img src="/images/1.jpg" className="card-img-top" alt="..." />
                     </div>
                     <div class="card">
-                        <img src="/images/2.jpg" className="card-img" alt="..." />
+                        <img src="/images/8.jpg" className="card-img" alt="..." />
                     </div>
                     <div class="card">
-                        <img src="/images/IMG_8956.JPG" className="card-img" alt="..." />
+                        <img src="/images/3.jpg" className="card-img" alt="..." />
                     </div>
                     <div class="card">
-                        <img src="/images/2.jpg" className="card-img" alt="..." />
+                        <img src="/images/5.jpg" className="card-img" alt="..." />
                     </div>
                     <div class="card">
-                        <img src="/images/DNUV2114.JPG" className="card-img" alt="..." />
+                        <img src="/images/6.jpg" className="card-img" alt="..." />
                     </div>
                     <div class="card">
-                        <img src="/images/2.jpg" className="card-img" alt="..." />
+                        <img src="/images/2.jpg" className="card-img-top" alt="..." />
                     </div>
                     <div class="card">
-                        <img src="/images/2.jpg" className="card-img" alt="..." />
+                        <img src="/images/4.jpg" className="card-img" alt="..." />
                     </div>
                     <div class="card">
-                        <img src="/images/3.jpg" className="card-img-top" alt="..." />
+                        <img src="/images/7.jpg" className="card-img-top" alt="..." />
+                    </div>
+                    <div class="card">
+                        <img src="/images/9.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div>
             </div>
