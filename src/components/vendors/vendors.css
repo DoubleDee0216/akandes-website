@@ -1,0 +1,61 @@
+.vendors_list {
+    background: linear-gradient(to right, transparent, rgb(84, 171, 126)), url("/public/images/999.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 280vh;
+    align-items: center;
+    color: white;
+    margin: 1rem auto;
+}
+
+.vendors_listheader {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.vendors_listheader h2 {
+    font-size: 1rem;
+    font-family: 'Lobster', cursive;
+}
+
+.vendors_listheader p {
+    text-align: center;
+    font-size: large;
+}
+
+.vendors_names {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.vendors_namelinks {
+    margin: 1rem auto;
+}
+
+.vendors_namelinks h4 {
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255)
+}
+
+.vendors_namelinks a {
+    font-weight: bold;
+}
+
+.vendors_namelinks a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 768px) {
+    .vendors_list {
+        height: 180vh;
+        
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .vendors_list {
+        height: 170vh;
+    }
+}

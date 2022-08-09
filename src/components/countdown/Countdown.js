@@ -64,7 +64,7 @@ class Countdown extends Component {
                     <div className="row justify-content-center align-items-center">
                         <div className="col-md-6 countdown__details2">
                             <p><i>Two "Lives", two "Hearts" merged together in friendship and united forever in LOVE....</i></p>
-                            <h3>We are getting Married in:</h3>
+                            <h3>Thank you for sharing in our special celebration.</h3>
                         </div>
                     </div>
 

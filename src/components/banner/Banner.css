@@ -1,5 +1,5 @@
 .banner {
-    background-image: url("/public/images/background.jpg");
+    background-image: url("/public/images/new555555.jpg");
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -22,9 +22,8 @@
 .banner_text h1 {
     font-size: 2rem;
     font-family: 'Lobster', cursive;
-    color: white
+    color: rgb(255, 255, 255);
 }
-
 .banner_text p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -33,6 +32,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .banner {
+        background-image:url("/public/images/new55.jpg");
+    }
     .banner_image img{
         width: 100%;
     }
